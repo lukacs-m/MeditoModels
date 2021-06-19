@@ -19,6 +19,10 @@ public struct FolderContainer: Codable {
     public init(content: Folder) {
         self.folder = content
     }
+    
+    public init(data: Data) throws {
+        self = try JSONDecoder().decode(FolderContainer.self, from: data)
+    }
 }
 
 // MARK: - DataClass
@@ -48,6 +52,10 @@ public struct Folder: Codable, Coverable, PrimaryColorable {
         self.items = items
     }
     
+    public init(data: Data) throws {
+        self = try JSONDecoder().decode(Folder.self, from: data)
+    }
+    
     public func getTitle() -> String {
         title ?? ""
     }
@@ -73,6 +81,10 @@ public struct Item: Codable {
     public init(content: ItemContent) {
         self.content = content
     }
+    
+    public init(data: Data) throws {
+        self = try JSONDecoder().decode(Item.self, from: data)
+    }
 }
 
 // MARK: - Item
@@ -95,5 +107,9 @@ public struct ItemContent: Codable, Identifiable, Navigable, Nameable {
         self.type = type
         self.title = title
         self.subtitle = subtitle
+    }
+    
+    public init(data: Data) throws {
+        self = try JSONDecoder().decode(ItemContent.self, from: data)
     }
 }

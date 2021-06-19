@@ -19,6 +19,10 @@ public struct CoursesContainer: Codable {
     public init(courses: [Course]) {
         self.courses = courses
     }
+    
+    public init(data: Data) throws {
+        self = try JSONDecoder().decode(CoursesContainer.self, from: data)
+    }
 }
 
 // MARK: - Course
@@ -46,6 +50,9 @@ public struct Course: Codable, Identifiable, Coverable, PrimaryColorable, Naviga
         self.primaryColor = primaryColor
     }
     
+    public init(data: Data) throws {
+        self = try JSONDecoder().decode(Course.self, from: data)
+    }
     
     public func getType() -> String {
         type ?? ""

@@ -19,6 +19,10 @@ public struct MindfullSessionContainer: Codable {
     public init(mindfullSession: MindfullSession) {
         self.mindfullSession = mindfullSession
     }
+    
+    public init(data: Data) throws {
+        self = try JSONDecoder().decode(MindfullSessionContainer.self, from: data)
+    }
 }
 
 // MARK: - DataClass
@@ -59,6 +63,10 @@ public struct MindfullSession: Codable, Identifiable, Coverable, Colorable, Navi
         self.subtitle = subtitle
         self.backgroundImage = backgroundImage
         self.audio = audio
+    }
+    
+    public init(data: Data) throws {
+        self = try JSONDecoder().decode(MindfullSession.self, from: data)
     }
 
     public func getOrderedFiles() -> [String: [AudioFile]] {
@@ -108,13 +116,27 @@ public struct AudioContainer: Codable {
     public init(audioFile: AudioFile) {
         self.audioFile = audioFile
     }
+    
+    public init(data: Data) throws {
+        self = try JSONDecoder().decode(AudioContainer.self, from: data)
+    }
 }
 
 // MARK: - File
 
 public struct AudioFile: Codable, Identifiable, Hashable, Downloadable {
     public let id, voice, length: String?
-
+    
+    public init(id: String?, voice: String?, length: String?) {
+        self.id = id
+        self.voice = voice
+        self.length = length
+    }
+    
+    public init(data: Data) throws {
+        self = try JSONDecoder().decode(AudioFile.self, from: data)
+    }
+    
     public func getLength() -> Int {
         guard let length = length else {
             return 0
@@ -131,12 +153,6 @@ public struct AudioFile: Codable, Identifiable, Hashable, Downloadable {
     public func getVoice() -> String {
         voice ?? ""
     }
-    
-    public init(id: String?, voice: String?, length: String?) {
-        self.id = id
-        self.voice = voice
-        self.length = length
-    }
 }
 
 // MARK: - Author
@@ -146,5 +162,9 @@ public struct Author: Codable {
     
     public init(body: String) {
         self.body = body
+    }
+    
+    public init(data: Data) throws {
+        self = try JSONDecoder().decode(Author.self, from: data)
     }
 }

@@ -1,0 +1,244 @@
+{
+    "data": [
+        {
+            "title": "30 Day Challenge",
+            "subtitle": "Form a consistent habit",
+            "type": "folder",
+            "id": "31",
+            "cover": "17a73820-def7-4665-a93c-72ddc4533299",
+            "background_image": "f0689c85-4af3-4b85-a1b2-5c74b294c0ae",
+            "color_primary": "#FFF5C2",
+            "color_secondary": "#000000"
+        },
+        {
+            "title": "Body Scan",
+            "subtitle": "Meditation for body and mind",
+            "type": "folder",
+            "id": "5",
+            "cover": "a6a64e58-e557-4e3b-8ace-3b5ebd9e899b",
+            "background_image": null,
+            "color_primary": "#FFF1DE",
+            "color_secondary": "#000000"
+        },
+        {
+            "title": "Breathing Exercises",
+            "subtitle": "Exercises to feel calmer",
+            "type": "folder",
+            "id": "6",
+            "cover": "5024cb34-6cbf-460e-aca6-b3db5047223d",
+            "background_image": null,
+            "color_primary": "#E9ECFC",
+            "color_secondary": "#000000"
+        },
+        {
+            "title": "Emergency",
+            "subtitle": "SOS sessions",
+            "type": "folder",
+            "id": "7",
+            "cover": "e8157182-7467-49f7-8b56-0899b7fb81d8",
+            "background_image": null,
+            "color_primary": "#C1E6D2",
+            "color_secondary": "#000000"
+        },
+        {
+            "title": "Empowerment",
+            "subtitle": "Anti-racism & self-care",
+            "type": "folder",
+            "id": "8",
+            "cover": "de8ba1b5-8104-4aa1-a877-ade5dcdd6937",
+            "background_image": null,
+            "color_primary": "#E3EEFB",
+            "color_secondary": "#000000"
+        },
+        {
+            "title": "Giovanni Dienstmann",
+            "subtitle": "Guided meditations from Giovanni",
+            "type": "folder",
+            "id": "9",
+            "cover": "eca9ad23-433d-4f10-964c-cf36b9b2580b",
+            "background_image": null,
+            "color_primary": "#F9F4E1",
+            "color_secondary": "#000000"
+        },
+        {
+            "title": "Gratitude",
+            "subtitle": "Find appreciation in daily life",
+            "type": "folder",
+            "id": "10",
+            "cover": "c59973b2-d956-40a2-be3e-e743b2f541bd",
+            "background_image": "9f743263-4b81-42bb-9496-8db65d131ea1",
+            "color_primary": "#FADEA0",
+            "color_secondary": "#000000"
+        },
+        {
+            "title": "Great Thinkers",
+            "subtitle": "Contemplate philosophical concepts",
+            "type": "folder",
+            "id": "16",
+            "cover": "e1f21907-8e97-4b7b-acc1-826e38e11192",
+            "background_image": "133e2772-c858-4141-883a-53dd00c43a8a",
+            "color_primary": "#EBE7E4",
+            "color_secondary": "#000000"
+        },
+        {
+            "title": "Loving Kindness",
+            "subtitle": "Cultivate compassion",
+            "type": "folder",
+            "id": "14",
+            "cover": "6541e793-4033-4999-81e6-4e25acb58457",
+            "background_image": "306161ec-170e-4346-914e-8c27fc3ed15d",
+            "color_primary": "#FFC2C2",
+            "color_secondary": "#000000"
+        },
+        {
+            "title": "Low Mood",
+            "subtitle": "Alleviate feelings of sadness",
+            "type": "folder",
+            "id": "30",
+            "cover": "e0599e2a-7733-44aa-8957-af69575c3728",
+            "background_image": null,
+            "color_primary": "#FFF5C2",
+            "color_secondary": "#000000"
+        },
+        {
+            "title": "Mantra",
+            "subtitle": "Meditative affirmations",
+            "type": "folder",
+            "id": "15",
+            "cover": "fdc3b09b-3ba4-4062-a72c-d91080a467f9",
+            "background_image": null,
+            "color_primary": "#DEF3FF",
+            "color_secondary": "#000000"
+        },
+        {
+            "title": "Meditation for Sleep",
+            "subtitle": "For a peaceful and restful sleep",
+            "type": "folder",
+            "id": "20",
+            "cover": "58a3ff8b-dee4-4ea7-9102-7d5cb756224a",
+            "background_image": null,
+            "color_primary": "#343B43",
+            "color_secondary": "#000000"
+        },
+        {
+            "title": "Mindfulness Man",
+            "subtitle": "Meditations from Chris Manning",
+            "type": "folder",
+            "id": "17",
+            "cover": "ee7ce1f6-4866-4d71-9681-fcf37d2804e9",
+            "background_image": null,
+            "color_primary": "#D6F7F0",
+            "color_secondary": "#000000"
+        },
+        {
+            "title": "Nature Sounds",
+            "subtitle": "Nature sounds to help you relax",
+            "type": "folder",
+            "id": "2",
+            "cover": "616d7ace-84f4-4ede-8735-6fe4ebb75801",
+            "background_image": null,
+            "color_primary": "#C2FFEC",
+            "color_secondary": "#000000"
+        },
+        {
+            "title": "Pandemic",
+            "subtitle": "Coping with the outbreak",
+            "type": "folder",
+            "id": "18",
+            "cover": "b006f7d5-41f6-4fb0-bcb7-5712d006600d",
+            "background_image": null,
+            "color_primary": "#F4E8FB",
+            "color_secondary": "#000000"
+        },
+        {
+            "title": "Relationships",
+            "subtitle": "Maintain healthy relationships",
+            "type": "folder",
+            "id": "19",
+            "cover": "5322640c-ce6b-46e2-b852-67852edaf2ad",
+            "background_image": null,
+            "color_primary": "#EBD1FE",
+            "color_secondary": "#000000"
+        },
+        {
+            "title": "Sleep Stories",
+            "subtitle": "Stories to help you fall asleep",
+            "type": "folder",
+            "id": "21",
+            "cover": "3e473f41-697b-469f-a142-94e166962c01",
+            "background_image": null,
+            "color_primary": "#343B43",
+            "color_secondary": "#000000"
+        },
+        {
+            "title": "Soundscapes",
+            "subtitle": "For meditative ambience",
+            "type": "folder",
+            "id": "22",
+            "cover": "59c4713e-66e2-460c-b486-5e2517380198",
+            "background_image": null,
+            "color_primary": "#C2FEFF",
+            "color_secondary": "#000000"
+        },
+        {
+            "title": "Stress & Anxiety",
+            "subtitle": "Overcome negative emotions",
+            "type": "folder",
+            "id": "23",
+            "cover": "e1121925-bd7d-40c8-a498-7a6c2457b885",
+            "background_image": null,
+            "color_primary": "#FFF5C2",
+            "color_secondary": "#000000"
+        },
+        {
+            "title": "Teachers",
+            "subtitle": "Mindfulness in the classroom",
+            "type": "folder",
+            "id": "24",
+            "cover": "723c5979-fbad-46af-bd4e-934c02f7261e",
+            "background_image": null,
+            "color_primary": "#F5D0D1",
+            "color_secondary": "#000000"
+        },
+        {
+            "title": "UCLA",
+            "subtitle": "Mindful Awareness Research Center",
+            "type": "folder",
+            "id": "28",
+            "cover": "6b3e7d95-51e8-4198-ba57-546e67b2831f",
+            "background_image": null,
+            "color_primary": "#D9E5AE",
+            "color_secondary": "#000000"
+        },
+        {
+            "title": "Walking Meditation",
+            "subtitle": "Meditation for body & mind",
+            "type": "folder",
+            "id": "26",
+            "cover": "1c4ad638-0009-4d14-b298-75f724954885",
+            "background_image": null,
+            "color_primary": "#C2FFCA",
+            "color_secondary": "#000000"
+        },
+        {
+            "title": "Work Life",
+            "subtitle": "Finding success at work",
+            "type": "folder",
+            "id": "27",
+            "cover": "45e11d30-c8be-452e-b5e7-c9299d607b73",
+            "background_image": null,
+            "color_primary": "#E5D7FC",
+            "color_secondary": "#000000"
+        },
+        {
+            "title": "Support Us",
+            "subtitle": "We need your help",
+            "type": "article",
+            "id": "16",
+            "cover": "b90be099-ad0b-47e7-8901-ac76a2d60a2a",
+            "background_image": null,
+            "color_primary": "#C9C9C9",
+            "color_secondary": "#000000"
+        }
+    ]
+}

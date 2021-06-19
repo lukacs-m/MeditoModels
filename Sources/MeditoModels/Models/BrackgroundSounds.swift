@@ -19,6 +19,10 @@ public struct BackgroundSoundsContainer: Codable {
     public init(backgroundSounds: [BackgroundSound]) {
         self.backgroundSounds = backgroundSounds
     }
+    
+    public init(data: Data) throws {
+        self = try JSONDecoder().decode(BackgroundSoundsContainer.self, from: data)
+    }
 }
 
 // MARK: - BackgroundSound
@@ -42,6 +46,10 @@ public struct BackgroundSound: Codable, Identifiable, Equatable {
         self.name = name
         self.soundFile = soundFile
     }
+    
+    public init(data: Data) throws {
+        self = try JSONDecoder().decode(BackgroundSound.self, from: data)
+    }
 }
 
 // MARK: - Sound File
@@ -53,5 +61,9 @@ public struct SoundFile: Codable, Downloadable {
     public init(id: String?, length: String?) {
         self.id = id
         self.length = length
+    }
+    
+    public init(data: Data) throws {
+        self = try JSONDecoder().decode(SoundFile.self, from: data)
     }
 }

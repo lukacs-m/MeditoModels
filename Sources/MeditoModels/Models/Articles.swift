@@ -19,6 +19,10 @@ public struct ArticleContainer: Codable {
     public init(content: Article) {
         self.article = content
     }
+    
+    public init(data: Data) throws {
+        self = try JSONDecoder().decode(ArticleContainer.self, from: data)
+    }
 }
 
 public struct Article: Codable, Identifiable, Nameable, Navigable {
@@ -34,6 +38,10 @@ public struct Article: Codable, Identifiable, Nameable, Navigable {
         self.title = title
         self.subtitle = subtitle
         self.body = body
+    }
+    
+    public init(data: Data) throws {
+        self = try JSONDecoder().decode(Article.self, from: data)
     }
     
     public func getId() -> String {

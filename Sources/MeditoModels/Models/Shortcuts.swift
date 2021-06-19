@@ -19,6 +19,10 @@ public struct ShortcutsContainer: Codable {
     public init(shortcuts: [Shortcut]) {
         self.shortcuts = shortcuts
     }
+    
+    public init(data: Data) throws {
+        self = try JSONDecoder().decode(ShortcutsContainer.self, from: data)
+    }
 }
 
 // MARK: - Shortcut
@@ -43,6 +47,10 @@ public struct Shortcut: Codable, Identifiable, Coverable, PrimaryColorable, Navi
         self.cover = cover
         self.primaryColor = primaryColor
         self.backgroundImage = backgroundImage
+    }
+    
+    public init(data: Data) throws {
+        self = try JSONDecoder().decode(Shortcut.self, from: data)
     }
     
     public func getType() -> String {

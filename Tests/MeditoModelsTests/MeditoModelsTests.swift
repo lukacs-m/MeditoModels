@@ -7,7 +7,10 @@
             // Use XCTAssert and related functions to verify your tests produce the correct
             // results.
             
-             let article = Article(id: 1, title: "test", subtitle: "test2", body: "wooot")
-            XCTAssertEqual(article.getType(), ContentType.article.rawValue)
+           let shorstcuts = ModelsMockFactory.getMockShortcutsContainer()
+            let data = shorstcuts?.toJSONData()
+            let testShorcuts = try! ShortcutsContainer(data: data!)
+
+            XCTAssertEqual(testShorcuts.shortcuts.count, 4)
         }
     }

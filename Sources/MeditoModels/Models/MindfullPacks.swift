@@ -19,6 +19,10 @@ public struct MindfullPacksContainer: Codable {
     public init(packs: [MindfullPack]) {
         self.mindfullPacks = packs
     }
+    
+    public init(data: Data) throws {
+        self = try JSONDecoder().decode(MindfullPacksContainer.self, from: data)
+    }
 }
 
 // MARK: - Pack
@@ -49,6 +53,10 @@ public struct MindfullPack: Codable, Identifiable, Coverable, Colorable, Navigab
         self.secondaryColor = secondaryColor
         self.cover = cover
         self.backgroundImage = backgroundImage
+    }
+    
+    public init(data: Data) throws {
+        self = try JSONDecoder().decode(MindfullPack.self, from: data)
     }
 
     public func getType() -> String {

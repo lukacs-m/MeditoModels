@@ -1,0 +1,36 @@
+{
+    "data": [
+        {
+            "title": "Daily Meditation",
+            "type": "daily",
+            "id": "19",
+            "cover": "aa98ad72-055e-462a-9857-a2f9c744e856",
+            "background_image": null,
+            "color_primary": "#FFD6C2"
+        },
+        {
+            "title": "Timer",
+            "type": "session",
+            "id": "155",
+            "cover": "1c6f3d1e-6ce9-4f8f-9e8a-15874eb02b09",
+            "background_image": null,
+            "color_primary": "#FCE9E9"
+        },
+        {
+            "title": "Downloads",
+            "type": "app",
+            "id": "downloads",
+            "cover": "8129559b-9301-4eba-8475-19c8f6fcc0b1",
+            "background_image": null,
+            "color_primary": "#C1E6D2"
+        },
+        {
+            "title": "Sleep",
+            "type": "folder",
+            "id": "33",
+            "cover": "f5a38c51-7d02-43f4-bc99-768eefcc0ddb",
+            "background_image": null,
+            "color_primary": "#343B43"
+        }
+    ]
+}
