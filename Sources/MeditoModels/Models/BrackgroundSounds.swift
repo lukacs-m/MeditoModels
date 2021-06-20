@@ -10,7 +10,7 @@ import Foundation
 // MARK: - BackgroundSounds
 
 public struct BackgroundSoundsContainer: Codable {
-    let backgroundSounds: [BackgroundSound]
+    public let backgroundSounds: [BackgroundSound]
 
     enum CodingKeys: String, CodingKey {
         case backgroundSounds = "data"
