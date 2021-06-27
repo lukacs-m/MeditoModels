@@ -12,4 +12,8 @@ public enum ContentType: String, Codable {
     case daily
     case folder
     case session
+    
+    public static func isSupported(for type: String) -> Bool {
+        return ContentType(rawValue: type) != nil
+    }
 }
